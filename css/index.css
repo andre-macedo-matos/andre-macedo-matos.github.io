@@ -53,11 +53,6 @@ a:not(#button)::before {
   opacity: 0.5;
 }
 
-#banner > img {
-  position: absolute;
-  max-height: 670px;
-}
-
 #banner > a {
   position: relative;
   top: 310px;
@@ -67,16 +62,15 @@ a:not(#button)::before {
   margin-left: 100px;
 }
 
+#banner > img {
+  position: absolute;
+  max-height: 505px;
+}
+
 #photo {
   z-index: -1;
   width: 100%;
   border-bottom: 10px solid #FFFF00;
-}
-
-#blur-photo {
-  z-index: -0;
-  width: 65%;
-  border-right: 10px solid #000000;
 }
 
 #card {
