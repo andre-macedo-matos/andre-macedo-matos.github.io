@@ -38,7 +38,7 @@ a:not(#button)::before {
   margin-right: 10px;
 }
 
-#button {
+.button {
   display: inline-block;
 	background-color: #FFFF00;
   color: #000000;
@@ -53,10 +53,36 @@ a:not(#button)::before {
   opacity: 0.5;
 }
 
-#banner {
+#banner > img {
+  position: absolute;
+  max-height: 670px;
+}
+
+#banner > a {
+  position: relative;
+  top: 310px;
+  left: 80px;
+
+  box-shadow: 5px 5px 0 #000000;
+  margin-left: 100px;
+}
+
+#photo {
+  z-index: -1;
+  width: 100%;
+  border-bottom: 10px solid #FFFF00;
+}
+
+#blur-photo {
+  z-index: -0;
+  width: 65%;
+  border-right: 10px solid #000000;
+}
+
+#card {
   background-color: #3A4042;
   box-shadow: 10px 10px 0 #000000;
-  width: 627px;
+  width: 600px;
   height: 184px;
 
   position: absolute;
@@ -74,12 +100,12 @@ a:not(#button)::before {
 #name {
   font-size: 30px;
   color: #FFE600;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 #job {
   font-size: 20px;
   color: #FFFFFF;
+  margin-top: 10px;
 }
-
-
-
