@@ -1,10 +1,6 @@
 h1 {
-    text-align: center;
     font-family: 'Press Start 2P', cursive;
     text-shadow: 4px 4px 0 #000000;
     font-size: 30px;
     color: #FFE600;
-
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
+}
