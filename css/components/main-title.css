@@ -1,13 +1,20 @@
 .main-title {
-    font-family: 'Press Start 2P', cursive;
-    text-shadow: 5px 5px 0 #000000;
-    font-size: 30px;
-    color: #FFE600;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 5px 5px 0 #000000;
+  font-size: 30px;
+  color: #FFE600;
 }
 
 
 .main-title.-second {
-    padding-bottom: 10px;
-    text-shadow: none;
-    text-align: center;
+  padding-bottom: 10px;
+  text-shadow: none;
+  text-align: center;
+} 
+
+.main-title.-third {
+  padding-bottom: 50px;
+  text-shadow: none;
+  text-align: center;
+  color: #000000;
 } 
