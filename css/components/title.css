@@ -1,6 +1,12 @@
 .title {
     font-family: 'Press Start 2P', cursive;
-    text-shadow: 4px 4px 0 #000000;
+    text-shadow: 5px 5px 0 #000000;
     font-size: 30px;
     color: #FFE600;
+}
+
+.title.-second {
+    padding: 50px 0;
+    text-shadow: none;
+    text-align: center;
 }
