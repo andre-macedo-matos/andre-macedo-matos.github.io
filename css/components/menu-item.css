@@ -1,4 +1,4 @@
-.action {
+.menu-item {
     display: inline-flex;
     align-items: center;
     color: #FFFF00;
@@ -8,7 +8,7 @@
     margin-right: 30px;
 }
   
-.action:not(.button)::before {
+.menu-item:not(.button)::before {
     content: "";
     background-color: #FFFF00;
     width: 10px;

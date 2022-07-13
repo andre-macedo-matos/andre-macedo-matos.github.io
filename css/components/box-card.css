@@ -1,10 +1,10 @@
-.box {
+.box-card {
     padding: 25px 0;
     background-color: #3A4042;
     box-shadow: 10px 10px 0 #000000;
     text-align: center;
 }
 
-.box .main-title {
+.box-card .main-title {
     margin-bottom: 28px;
 }

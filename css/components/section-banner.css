@@ -1,4 +1,4 @@
-.banner {
+.section-banner {
   box-sizing: border-box;
   background-image: url(../../assets/img/banner-coding.jpg);
   background-repeat: no-repeat;
@@ -9,17 +9,17 @@
   border-bottom: 10px solid #FFFF00;
 }
 
-.banner .wrapper {
+.section-banner .wrapper-banner {
   display: flex;
   flex-direction: column;
   width: 640px;
 }
 
-.banner .box {
+.section-banner .box-card {
   margin-bottom: 40px;
 }
 
-.banner .navigation {
+.section-banner .nav-menu {
   display: flex;
   justify-content: space-around;
 }
