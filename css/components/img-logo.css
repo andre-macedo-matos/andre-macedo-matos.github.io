@@ -1,0 +1,20 @@
+.img-logo {
+  max-width: 245px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #FFF;
+  box-shadow: 10px 10px 0 #000;
+}
+
+.img-logo:nth-child(even) {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.img-logo.-second {
+  background-color: #4C5B84;
+}
+
+.img-logo.-third {
+  background-color: #F25A70;
+}
