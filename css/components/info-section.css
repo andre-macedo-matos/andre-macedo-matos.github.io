@@ -13,7 +13,10 @@
   margin-bottom: 20px;
 }
 
-.info-section.-project {
+.info-section.-bgYellow {
   background-color: #FFE600;
-  border-bottom: 10px solid #000;
+}
+
+.info-section.-bdBlack {
+  border-color: #000;
 }
