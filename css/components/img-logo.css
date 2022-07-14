@@ -15,11 +15,7 @@
   background-color: #F25A70;
 }
 
-.img-logo.-noneDecor {
-  text-decoration: none;
-}
-
-.img-logo .logo-banner {
+.img-logo.logo-banner {
   text-align: center;
   line-height: 280px;
   font-size: 75px;

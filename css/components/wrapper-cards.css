@@ -6,3 +6,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.wrapper-cards .link-button {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.wrapper-cards .link-button:hover {
+  opacity: 0.8;
+}
