@@ -7,8 +7,7 @@
 }
 
 .img-carousel .link-button {
-  width: 25px;
-  height: 25px;
+  max-width: 30px;
 }
 
 .img-carousel .frame {
