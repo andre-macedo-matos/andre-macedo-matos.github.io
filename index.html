@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="css/components/img-logo.css">
   <link rel="stylesheet" href="css/components/wrapper-cards.css">
 
+  <link rel="stylesheet" href="css/components/img-carousel.css">
   <link rel="stylesheet" href="css/components/main-text.css">
 
   <title>Andre Macedo Matos</title>
@@ -145,8 +146,35 @@
       </div>
     </section>
 
-    <section id="about" class="info-section -bdYellow">
+    <section id="about" class="info-section -bdYellow -about-me">
       <h2 class="main-title -second">Sobre</h2>
+      <div class="img-carousel">
+        <div>
+          <img onclick="plusSlides(-1)" src="assets/img/left-arrow.png" 
+            alt="Logo da seta para esquerda" class="link-button">
+        </div>
+        <div class="frame">
+          <h3 class="date">2012</h3>
+          <img src="assets/img/logos/logo-unesp.jpg" alt="Logo da Unesp" class="logo -active">
+        </div>
+        <div class="frame">
+          <h3 class="date">2017</h3>
+          <img src="assets/img/logos/logo-cip.png" alt="Logo da CIP" class="logo -bgWhite">
+        </div>
+        <div class="frame">
+          <h3 class="date">2019</h3>
+          <img src="assets/img/logos/logo-sinqia.webp" alt="Logo da Sinqia" class="logo">
+        </div>
+        <div class="frame">
+          <h3 class="date">2020</h3>
+          <img src="assets/img/logos/logo-brasilprev.webp" alt="Logo da Brasilprev" class="logo -bgYellow">
+        </div>
+        <div>
+          <img onclick="plusSlides(1)" src="assets/img/right-arrow.png" 
+            alt="Logo seta para direita" class="link-button">
+        </div>
+      </div>
+      
       <article class="main-text">
         <p>
           Formado em engenharia elétrica pela Unesp, André começou a carreira  com estagiário em Arquitetura de TI 
@@ -160,5 +188,7 @@
         <p>Quando não está estudando, passa seu tempo com quadrinhos, livros ou RPG de mesa.</p>
       </article>
     </section>
+
+    <script src="js/slidesControls.js"></script>
 </body>
 </html>
