@@ -12,7 +12,7 @@
 .section-banner .wrapper-banner {
   display: flex;
   flex-direction: column;
-  width: 640px;
+  width: 800px;
 }
 
 .section-banner .box-card {

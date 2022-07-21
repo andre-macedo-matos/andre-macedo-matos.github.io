@@ -1,0 +1,41 @@
+.main-carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+  color: #FFE600;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-carousel::after {
+  content: "";
+  position: absolute;
+  top: 55px;
+  left: 75px;
+  display: block;
+  height: 6px;
+  width: calc(100% - 150px);
+  background-color: #FFE600;
+}
+
+.main-carousel::before {
+  content: "";
+  position: absolute;
+  top: 55px;
+  left: 3px;
+  display: block;
+  width: 100%;
+  border: 3px dashed #FFE600;
+}
+
+.main-carousel .elements {
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-carousel .items {
+  display: flex;
+  justify-content: space-evenly;
+  transition: transform 100ms ease-in-out;
+}

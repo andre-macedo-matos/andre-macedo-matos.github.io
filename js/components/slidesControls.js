@@ -7,7 +7,7 @@ function plusSlides(n) {
 }
 
 function showSlides(n) {
-  let slides = document.getElementsByClassName("frame");
+  let slides = document.getElementsByClassName("node-card");
   
   if(n > slides.length - 1) {
     slideIndex = 0;
