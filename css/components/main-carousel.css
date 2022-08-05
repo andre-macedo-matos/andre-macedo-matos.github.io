@@ -32,6 +32,7 @@
 .main-carousel .elements {
   width: 100%;
   overflow: hidden;
+  padding-top: 15px;
 }
 
 .main-carousel .items {

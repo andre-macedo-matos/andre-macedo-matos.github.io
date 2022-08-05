@@ -42,6 +42,7 @@
 
 .node-card.-active {
   align-self: flex-start;
+  transform: scale(1.11);
 }
 
 .node-card:not(.-active) {
