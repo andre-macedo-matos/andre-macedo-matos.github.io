@@ -4,6 +4,7 @@ body {
 
 body, h1, h2, h3, div, p, figure, input, textarea {
   margin: 0;
+  padding: 0;
 }
 
 button, input, textarea {

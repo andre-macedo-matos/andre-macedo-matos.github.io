@@ -1,21 +1,25 @@
 .main-form {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: calc(100% - 80px);
   font-size: 30px;
   font-weight: 300;
-}
-
-.main-form .formItem {
-  margin-bottom: 20px;
   margin-left: 40px;
   margin-right: 40px;
 }
+
+.main-form .formItem {
+  margin-bottom: 30px;
+}
+
 .main-form .formInput {
+  box-sizing: border-box;
   font-size: inherit;
   font-weight: inherit;
   width: 100%;
   height: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
   border: 5px solid #000;
 }
 

@@ -49,7 +49,9 @@
         <a class="menu-item" href="#projects">Projetos</a>
         <a class="menu-item" href="#about">Sobre</a>
         <a class="menu-item" href="#contact-me">Contatos</a>
-        <a class="link-button" href="https://drive.google.com/file/d/1gz-WOYw6Ck0M_1X6G0iQxZdxQqAq5BLK/view?usp=sharing" lang="en">Download CV</a>
+        <a class="link-button" target="_blank"
+          href="https://drive.google.com/file/d/1gz-WOYw6Ck0M_1X6G0iQxZdxQqAq5BLK/view?usp=sharing" 
+          lang="en">Download CV</a>
       </nav>
     </header>
     
@@ -61,7 +63,9 @@
         </div>
 
         <div class="nav-menu">
-          <a class="link-button" href="https://drive.google.com/file/d/1gz-WOYw6Ck0M_1X6G0iQxZdxQqAq5BLK/view?usp=sharing" lang="en">Download CV</a>
+          <a class="link-button" target="_blank"
+            href="https://drive.google.com/file/d/1gz-WOYw6Ck0M_1X6G0iQxZdxQqAq5BLK/view?usp=sharing" 
+            lang="en">Download CV</a>
           <a class="link-button" href="#contact-me" lang="pt-BR">Contatos</a>
         </div>
       </div>
@@ -140,13 +144,13 @@
     <section id="projects" class="info-section -bgYellow -bdGray">
       <h2 class="main-title -second -black">Projetos</h2>
       <div class="wrapper-cards">
-        <a class="link-button" href="https://andremacedo-transactioncompare.herokuapp.com/">
+        <a class="link-button" target="_blank" href="https://andremacedo-transactioncompare.herokuapp.com/">
           <img class="img-logo" src="assets/img/logo-collabcode.png" alt="logo do projeto">
         </a>
-        <a class="link-button" href="https://andremacedomatos-marketcrawler.herokuapp.com/">
+        <a class="link-button" target="_blank" href="https://andremacedomatos-marketcrawler.herokuapp.com/">
           <img class="img-logo -blue" src="assets/img/logo-collabcode.png" alt="logo do projeto">
         </a>
-        <a class="link-button" href="https://andre-macedo-matos.github.io">
+        <a class="link-button" target="_blank" href="https://andre-macedo-matos.github.io">
           <h2 class="img-logo -black logo-banner ">AMM</h2>
         </a>
       </div>
@@ -195,24 +199,24 @@
       </article>
     </section>
     
-    <section id="contact-me" class="info-section -contact -bgYellow -bdGray">
+    <section id="contact-me" class="info-section -contact -bgYellow">
       <h2 class="main-title -second -black">Contato</h2>
       
       <form action="" class="main-form">
         <div class="formItem"> 
           <label for="name">Nome</label>
-          <input class="formInput" type="text" name="name">
+          <input class="formInput" type="text" id="name" required>
         </div>
         
         <div class="formItem"> 
           <label for="mail">E-mail</label>
-          <input class="formInput" type="mail" name="mail" required 
+          <input class="formInput" type="mail" id="mail" required 
             pattern="^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$">
         </div>
         
         <div class="formItem"> 
           <label for="msg">Mensagem</label>
-          <textarea class="formInput -formTextArea" name="msg" id="" cols="30" rows="10"></textarea>
+          <textarea class="formInput -formTextArea" id="msg" id="" cols="30" rows="10" required></textarea>
         </div>
         
         <div class="formItem">
@@ -222,13 +226,13 @@
     </section>
 
     <footer class="main-footer">
-      <a href="https://www.linkedin.com/in/andremacedomatos/">
+      <a target="_blank" href="https://www.linkedin.com/in/andremacedomatos/">
         <img src="assets/img/footer/icon-linkedin.png" alt="Ícone de Linkedin">
       </a>
-      <a href="https://github.com/andre-macedo-matos">
+      <a target="_blank" href="https://github.com/andre-macedo-matos">
         <img src="assets/img/footer/icon-github.png" alt="Ícone de Github">
       </a>
-      <a href="https://twitter.com/ndremacedomatos">
+      <a target="_blank" href="https://twitter.com/ndremacedomatos">
         <img src="assets/img/footer/icon-twitter.png" alt="Ícone de Twitter">
       </a>
     </footer>

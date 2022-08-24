@@ -36,4 +36,6 @@
 .info-section.-contact {
   display: flex;
   flex-direction: column;
+  border: none;
+  padding-bottom: 50px;
 }
