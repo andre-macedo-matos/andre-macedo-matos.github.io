@@ -2,11 +2,11 @@ body {
   font-family: "Fira Code", monospace;
 }
 
-body, h1, h2, h3, div, p, figure {
+body, h1, h2, h3, div, p, figure, input, textarea {
   margin: 0;
 }
 
-button {
+button, input, textarea {
   border: none;
   font-family: inherit;
 }

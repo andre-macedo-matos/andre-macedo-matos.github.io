@@ -33,6 +33,8 @@
   <link rel="stylesheet" href="css/components/node-card.css">
   <link rel="stylesheet" href="css/components/main-text.css">
 
+  <link rel="stylesheet" href="css/components/main-form.css">
+  
   <link rel="stylesheet" href="css/components/main-footer.css">
 
   <title>Andre Macedo Matos</title>
@@ -46,7 +48,7 @@
         <a class="menu-item" href="#skills">Skills</a>
         <a class="menu-item" href="#projects">Projetos</a>
         <a class="menu-item" href="#about">Sobre</a>
-        <a class="menu-item" href="">Contatos</a>
+        <a class="menu-item" href="#contact-me">Contatos</a>
         <a class="link-button" href="" lang="en">Download CV</a>
       </nav>
     </header>
@@ -129,7 +131,7 @@
           <img class="icon" src="assets/img/icons/ico_ux.png" alt="icone de UX">
           <div class="right">
             <h3 class="title">UX</h2>
-            <progress class="progress-bar" max="100" value="50"></progress>
+            <progress class="progress-bar" max="100" value="20"></progress>
           </div>
         </article>
       </div>
@@ -153,7 +155,7 @@
     <section id="about" class="info-section -about-me">
       <h2 class="main-title -second">Sobre</h2>
       <section class="main-carousel">
-          <button onclick="plusSlides(-1)" class="button-arrow -left"><span class="content">Voltar</span></button>
+        <button onclick="plusSlides(-1)" class="button-arrow -left"><span class="content">Voltar</span></button>
         <div class="elements">
           <div id="items"class="items">
             <figure class="node-card">
@@ -191,6 +193,31 @@
         <p>Atualmente, focado em construir um portifólio e aprender mais sobre o mercado financeiro.</p>
         <p>Quando não está estudando, passa seu tempo com quadrinhos, livros ou RPG de mesa.</p>
       </article>
+    </section>
+    
+    <section id="contact-me" class="info-section -contact -bgYellow -bdGray">
+      <h2 class="main-title -second -black">Contato</h2>
+      
+      <form action="" class="main-form">
+        <div class="formItem"> 
+          <label for="name">Nome</label>
+          <input class="formInput" type="text" name="name" required>
+        </div>
+        
+        <div class="formItem"> 
+          <label for="mail">E-mail</label>
+          <input class="formInput" type="mail" name="mail" required>
+        </div>
+        
+        <div class="formItem"> 
+          <label for="msg">Mensagem</label>
+          <textarea class="formInput -formTextArea" name="msg" id="" cols="30" rows="10" required></textarea>
+        </div>
+        
+        <div class="formItem">
+          <input class="link-button -submit" type="submit" value="Enviar">
+        </div>
+      </form>
     </section>
 
     <footer class="main-footer">

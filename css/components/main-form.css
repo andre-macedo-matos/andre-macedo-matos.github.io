@@ -1,0 +1,28 @@
+.main-form {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% - 80px);
+  font-size: 30px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.main-form .formItem {
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.main-form .formInput {
+  font-size: inherit;
+  font-weight: inherit;
+  width: 100%;
+  height: 50px;
+  border: 5px solid #000;
+}
+
+.formInput.-formTextArea {
+  height: 300px;
+  resize: none;
+}
+
+

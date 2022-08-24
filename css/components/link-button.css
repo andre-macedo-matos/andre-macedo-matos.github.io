@@ -14,3 +14,12 @@
   transform: scale(1.03);
   opacity: 0.5;
 }
+
+.link-button.-submit {
+  background-color: #000000;
+  font-size: 30px;
+  width: calc(100% + 15px);
+  color: #FFFF00;
+  height: 50px;
+  line-height: 0;
+}
