@@ -29,10 +29,6 @@
   border-color: #FFE600;
 }
 
-.info-section.-about-me {
-  padding-bottom: 30px;
-}
-
 .info-section.-contact {
   display: flex;
   flex-direction: column;

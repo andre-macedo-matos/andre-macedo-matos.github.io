@@ -1,10 +1,14 @@
 .img-logo {
-  width: 280px;
-  height: 280px;
+  width: 220px;
+  height: 220px;
   padding: 20px;
   margin-bottom: 30px;
   background-color: #9e9e22;
   box-shadow: 20px 20px 0 #FFF;
+}
+
+.img-logo.-red {
+  background-color: #a02054;
 }
 
 .img-logo.-blue {
@@ -17,6 +21,11 @@
 
 .img-logo.logo-banner {
   text-align: center;
-  line-height: 280px;
+  line-height: 220px;
   font-size: 75px;
+}
+
+.img-logo.logo-banner.-project {
+  line-height: 140px;
+  font-size: 20px;
 }
