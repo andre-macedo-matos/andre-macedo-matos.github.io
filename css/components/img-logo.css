@@ -30,6 +30,20 @@
 }
 
 .img-logo.logo-banner.-project {
-  line-height: 140px;
-  font-size: 20px;
+  line-height: 225px;
+  font-size: 75px;
+}
+
+.img-logo.-project {
+  margin-bottom: 40px;
+}
+
+.img-logo + .description {
+  display: none;
+}
+
+.img-logo:hover + .description {
+  display: block;
+  position: absolute;
+  text-align: center;
 }
