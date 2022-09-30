@@ -10,12 +10,12 @@
   content: '';
   box-sizing: border-box;
   height: 0;
-  width: 40px;
+  width: 35px;
   border: 2.5px dashed #FFE600;
   transform-origin: center center;
   transform: rotate(90deg) translateX(-42%);
   position: absolute;
-  bottom: 220px;
+  bottom: 225px;
 }
 
 .node-card .title {
@@ -23,7 +23,7 @@
   font-size: 25px;
   font-weight: 400;
   text-align: center;
-  padding-bottom: 65px;
+  padding-bottom: 70px;
 }
 
 .node-card .logo {

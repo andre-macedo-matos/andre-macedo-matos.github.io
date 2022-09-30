@@ -1,3 +1,8 @@
+:root {
+  --line-top-position: 80px;
+}
+
+
 .main-carousel {
   display: flex;
   justify-content: space-between;
@@ -10,7 +15,7 @@
 .main-carousel::after {
   content: "";
   position: absolute;
-  top: 55px;
+  top: var(--line-top-position);
   left: 75px;
   display: block;
   height: 6px;
@@ -21,7 +26,7 @@
 .main-carousel::before {
   content: "";
   position: absolute;
-  top: 55px;
+  top: var(--line-top-position);
   left: 3px;
   display: block;
   width: 100%;
@@ -31,7 +36,7 @@
 .main-carousel .elements {
   width: 100%;
   overflow: hidden;
-  padding-top: 15px;
+  padding-top: 30px;
 }
 
 .main-carousel .items {
