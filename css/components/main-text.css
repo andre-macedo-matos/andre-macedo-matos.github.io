@@ -12,3 +12,9 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.main-text.-description {
+  font-size: 15px;
+  margin-left: 280px;
+  margin-right: 280px;
+}

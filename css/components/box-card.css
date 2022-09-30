@@ -8,3 +8,14 @@
 .box-card .main-title {
     margin-bottom: 28px;
 }
+
+.box-card.-description {
+    box-shadow: none;
+}
+
+.box-card.-description.-active {
+    display: inherit;
+}
+.box-card.-description:not(.-active) {
+    display:none;
+}

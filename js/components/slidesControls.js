@@ -8,6 +8,7 @@ function plusSlides(n) {
 
 function showSlides(n) {
   let slides = document.getElementsByClassName("node-card");
+  let description = document.getElementsByClassName("box-card -description");
   
   if(n > slides.length - 1) {
     slideIndex = 0;
@@ -18,7 +19,9 @@ function showSlides(n) {
   
   for(let i = 0; i < slides.length; i++) {
     slides[i].className = slides[i].className.replace(" -active", "");
+    description[i].className = description[i].className.replace(" -active", "");
   }
   
   slides[slideIndex].className += " -active";
+  description[slideIndex].className += " -active";
 }
